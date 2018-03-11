@@ -1,5 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import logo from '../../images/logo.svg'
+
+console.log(logo)
 
 const Header = () => (
   <div
@@ -23,10 +26,28 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
-          Gatsby
+          <img src={logo} alt='Level Up Logo' />
         </Link>
       </h1>
     </div>
+    <nav>
+      <ul>
+        <li>
+          <Link
+            to='/'
+          >
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link
+            to='/about'
+          >
+            About
+          </Link>
+        </li>
+      </ul>
+    </nav>
   </div>
 )
 
