@@ -1,12 +1,16 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
+import Img from 'gatsby-image'
 
 import logo from '../../images/logo.svg'
 
 const HeaderWrapper = styled.div`
   background: #524763;
-  marginBottom: 1.5rem;
+  marginBottom: 1.45rem;
+  overflow: hidden;
+  position: relative;
+  height: 70vh;
   h1 {
     img {
       height: 80px;
@@ -16,8 +20,18 @@ const HeaderWrapper = styled.div`
 
 const HeaderContainer = styled.div`
   margin: 0 auto;
-  maxWidth: 960px;
+  max-width: 960px;
   padding: 1.45rem 1.0875rem;
+  position: relative;
+  z-index: 2;
+`
+
+const Billboard = styled(Img)`
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%
 `;
 
 const Header = ({data}) => (
@@ -53,6 +67,14 @@ const Header = ({data}) => (
         </ul>
       </nav>
     </HeaderContainer>
+    <Img style={{
+      position: 'absolute',
+      left: 0,
+      top: 0,
+      width: '100%',
+      height: '100%'
+    }}
+      sizes={data.background.sizes} />
   </HeaderWrapper>
 )
 
