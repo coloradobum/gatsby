@@ -30,8 +30,10 @@ query MyQueryName {
           title
           date(formatString: "MM-DD-YYYY")
         }
-        html
-        excerpt
+        fields {
+          slug
+        }
+        html excerpt
       }
     }
   }
