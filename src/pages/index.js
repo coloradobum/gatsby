@@ -22,7 +22,10 @@ query MyQueryName {
       desc
     }
   }
-  allMarkdownRemark {
+  allMarkdownRemark( sort: {
+    fields: [frontmatter__date],
+    order: DESC
+  }) {
     edges {
       node {
         id
