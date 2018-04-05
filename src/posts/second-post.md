@@ -3,7 +3,7 @@ title: Welcome to the second harah
 date: '2018-03-27'
 image: /static/assets/screen-shot-2018-04-05-at-11.58.39-am.png
 ---
-![code](/static/assets/screen-shot-2018-04-05-at-11.58.39-am.png)
+![code](/assets/image.png)
 
 Lorem ipsum dolor amet palo santo authentic single-origin coffee cliche truffaut
 <-!-- end -->
