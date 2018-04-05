@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: coloradobum/gatsby
 
 media_folder: static/assets
 
