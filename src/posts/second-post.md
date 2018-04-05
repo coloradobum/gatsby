@@ -1,7 +1,9 @@
 ---
-title: 'Welcome to the second harah'
+title: Welcome to the second harah
 date: '2018-03-27'
+image: /static/assets/screen-shot-2018-04-05-at-11.58.39-am.png
 ---
+![code](/static/assets/screen-shot-2018-04-05-at-11.58.39-am.png)
 
 Lorem ipsum dolor amet palo santo authentic single-origin coffee cliche truffaut
 <-!-- end -->
@@ -10,7 +12,6 @@ brunch, umami typewriter intelligentsia tacos fanny pack post-ironic. Ugh irony
 marfa knausgaard, flannel tilde forage cornhole. Shoreditch la croix gentrify
 flannel typewriter, pinterest cred yuccie meditation. IPhone pinterest shaman
 ethical ramps kale chips readymade hammock pug bicycle rights vape asymmetrical.
-
 
 Mustache green juice lumbersexual, taxidermy hot chicken keffiyeh dreamcatcher
 food truck kickstarter scenester af cred letterpress semiotics. Thundercats
